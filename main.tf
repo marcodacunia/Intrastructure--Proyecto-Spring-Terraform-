@@ -1,5 +1,5 @@
 terraform {            //Bloque principal de configuracion
-  required_providers { //proveedores como AWS o docker
+  required_providers {
     docker = {
       source  = "kreuzwerker/docker" //proveedor de docker, el aleman
       version = "~> 3.0.2"
